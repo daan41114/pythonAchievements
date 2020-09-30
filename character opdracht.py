@@ -9,12 +9,16 @@ bodygear_level = 'bodygear   lv 20'
 boots_level = 'boots   lv 25'
 weapon = 'weapon   master axe'
 bow = 'bow   valkarie bow'
-weapon_durability = 'weapon   100/1000'
-bow_durability = 'bow   300/500'
+original_weapon_durability = 1000
+weapon_durability = 100
+original_bow_durability = 500
+bow_durability = 300
 special_ability2 = ('double jump')
 print (naam)
 print (level)
-if level == 'lv 50':
+(special_ability) = True
+if special_ability == True:
+    special_ability = 'special_ability   dash attack'
     print (special_ability)
 else:
     print (special_ability2)
@@ -40,6 +44,10 @@ print (bodygear_level)
 print (boots)
 print (boots_level)
 print (weapon)
+print (original_weapon_durability)
+print ('----')
 print (weapon_durability)
 print (bow)
+print (original_bow_durability)
+print ('---')
 print (bow_durability)
