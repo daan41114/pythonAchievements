@@ -11,9 +11,28 @@ weapon = 'weapon   master axe'
 bow = 'bow   valkarie bow'
 weapon_durability = 'weapon   100/1000'
 bow_durability = 'bow   300/500'
+special_ability2 = ('double jump')
 print (naam)
 print (level)
-print (special_ability)
+if level == 'lv 50':
+    print (special_ability)
+else:
+    print (special_ability2)
+print ("choose gear to upgrade")
+print ('choose: headgear lv 20, bodygear lv 20 or boots lv 25')
+print ('also you have to input it multible times for no reason')
+if level == 'lv 50':
+    input()
+else:
+    print ('to low level')
+if input() == 'headgear':
+    headgear_level = 'headgear   lv 21'
+elif input() == 'bodygear':
+    bodygear_level = 'bodygear   lv 21'
+elif input() == 'boots':
+    boots_level = 'boots   lv 26'
+else:
+    print ('quess your not upgrading')
 print (headgear)
 print (headgear_level)
 print (bodygear)
