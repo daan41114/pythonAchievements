@@ -36,3 +36,5 @@ elif input() =='c':
 else:
     print('haha I stil can not read')
 
+print('that was all')
+print('thank you for anwsering my questions')
