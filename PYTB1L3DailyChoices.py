@@ -8,7 +8,7 @@ print('B. I keep gaming its only 12:00Am.')
 print('C. I go to bed and watch youtube or something.')
 print('D. I freak out becouse I am normaly not up at 12:00, and go to sleep as fast as possible resulting in not being able to sleep')
 print('or own answer')
-input()
+inputvariable = input()
 
 if input() =='A':
     print('cool you know when to stop,(unlike me)')
@@ -26,7 +26,7 @@ print('A. I make it right away.')
 print('B. I start gaming I got time.')
 print('C. I start making a scedule for when I make it')
 print('or own anwser')
-input()
+inputvariable =input()
 
 if input() =='A':
     print('you think howework first then gaming')
@@ -43,7 +43,7 @@ print('B. I do not go in class im already absent so it whould not matter')
 print('C. I go in class and make up an excuse for why I am late')
 print('D. I try talking myself out of trouble')
 print('or own anwser')
-input()
+inputvariable = input()
 
 if input() =='A':
     print('you pay alot of attention in class even if you do not need to.')
@@ -62,7 +62,7 @@ print('A. I eat some bread')
 print('b. I eat sereal.')
 print('C. I do not eat breakfast')
 print('or own anwser')
-input()
+inputVariabele = input()
 
 if input() =='A':
     print('you are almost everyone')
@@ -77,7 +77,7 @@ print('what is the best game')
 print('A. smash bros ultimate')
 print('b. smash bros ultimate')
 print('C. smash bros ultimate')
-input()
+inputvariable = input()
 
 if input() =='A':
     print('you are right.')
