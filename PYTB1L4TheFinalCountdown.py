@@ -5,6 +5,4 @@ for x in range(1):
         time.sleep(1)
         getallen-= 1
         print(getallen)
-while getallen == 0:
-    print('get stickbugd lol')
-    break
+print('get stickbugd lol')
